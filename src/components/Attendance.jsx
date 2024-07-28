@@ -159,7 +159,7 @@ const TeacherAttendanceComponent = () => {
     <div className="p-4">
       <button
         onClick={() => setIsModalOpen(true)}
-        className="bg-[#1E2A3B] text-[#F0F0F0] px-6 py-3 rounded-lg hover:bg-[#3369b4] transition duration-300"
+        className="bg-[#1E2A3B] text-[#F0F0F0] px-6 py-3 rounded-lg hover:bg-[#1c4277] transition duration-300"
       >
         Mark Attendance
       </button>

@@ -11,6 +11,8 @@ import Dashboard from "./components/Dashboard";
 import Form from "./pages/Form";
 import LCL from "./pages/LCL";
 import Student from "./pages/Student";
+import TestForUser from "./pages/TestForUser";
+import Successfull_Form from "./pages/Successfull_Form.jsx";
 
 // Existing components (kept as they were)
 const DailyReport = () => {
@@ -40,38 +42,6 @@ const Training = () => {
   );
 };
 
-// const AppContent = () => {
-//   const [sidebarOpen, setSidebarOpen] = useState(false);
-//   const location = useLocation();
-
-//   const toggleSidebar = () => setSidebarOpen(!sidebarOpen);
-
-//   // Determine if we're on the home page
-//   // const isHomePage = location.pathname === "/";
-
-//   return (
-//     <div className="flex flex-col min-h-screen">
-//       <Navbar />
-//       <div className="flex flex-1">
-//         {!isHomePage && (
-//           <Sidebar isOpen={sidebarOpen} toggleSidebar={toggleSidebar} />
-//         )}
-//         <div className="flex-1">
-//           {!isHomePage && (
-//             <button
-//               className="lg:hidden fixed top-4 left-4 z-50 bg-gray-800 text-white p-2 rounded-md"
-//               onClick={toggleSidebar}
-//             >
-//               <FaBars />
-//             </button>
-//           )}
-//           <div className="p-4"></div>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
-
 const App = () => {
   return (
     <Router>
@@ -89,6 +59,8 @@ const App = () => {
         <Route path="/form" element={<Form />} />
         <Route path="/lcl" element={<LCL />} />
         <Route path="/student" element={<Student />} />
+        <Route path="/testforuser" element={<TestForUser />} />
+        <Route path="/success" element={<Successfull_Form />} />
       </Routes>
     </Router>
   );

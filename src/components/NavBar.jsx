@@ -12,7 +12,7 @@ const Navbar = () => {
           id="logo"
           className="text-2xl font-bold select-none tracking-tighter"
         >
-          U&I Trust
+          <img src="/logo.jpg" alt="Logo" width="80" height="auto" />
         </div>
         <div className="flex gap-8 text-[1.05rem] font-semibold items-center mt-1">
           <button
@@ -21,13 +21,13 @@ const Navbar = () => {
           >
             Home
           </button>
-          <button
+          {/* <button
             className="cursor-pointer hover:text-blue-600"
             onClick={() => navigate("/dashboard")}
           >
             Volunteer Dashboard
-          </button>
-          <button
+          </button> */}
+          {/* <button
             className="cursor-pointer hover:text-blue-600"
             onClick={() => navigate("/lcl")}
           >
@@ -38,14 +38,14 @@ const Navbar = () => {
             onClick={() => navigate("/student")}
           >
             Student Dashboard
-          </button>
+          </button> */}
+
           <button
             className="cursor-pointer hover:text-blue-600"
             onClick={() => navigate("/contact")}
           >
             Contact
           </button>
-
           <button
             className="cursor-pointer hover:text-blue-600"
             onClick={() => {
@@ -80,7 +80,7 @@ const Navbar = () => {
         >
           <Button btnText="Sign up" />
         </button>
-        <Attendance />
+        {/* <Attendance /> */}
       </div>
     </nav>
   );

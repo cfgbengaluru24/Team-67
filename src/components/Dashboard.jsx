@@ -1,4 +1,4 @@
-import { DriveFileRenameOutline } from "@mui/icons-material";
+import Attendance from "./Attendance";
 import { useState } from "react";
 import {
   FaBars,
@@ -120,12 +120,15 @@ const Dashboard = () => {
           <div className="bg-white rounded-lg shadow-md p-6">
             <h3 className="text-xl font-semibold mb-4">Class Management</h3>
             {!isClassActive ? (
-              <button
-                onClick={startClass}
-                className="bg-green-500 text-white py-2 px-4 rounded hover:bg-green-600"
-              >
-                Start Class
-              </button>
+              <div>
+                <button
+                  onClick={startClass}
+                  className="bg-green-500 text-white py-3 px-8 rounded-lg hover:bg-green-600 mt-4 mx-2 transition duration-300 ease-in-out"
+                >
+                  Start Class
+                </button>
+                <Attendance />
+              </div>
             ) : (
               <div>
                 <p className="text-lg mb-2">

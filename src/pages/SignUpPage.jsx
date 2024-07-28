@@ -1,4 +1,3 @@
-import axios from "axios";
 import { useForm } from "react-hook-form";
 import { useNavigate } from "react-router-dom";
 
@@ -10,14 +9,16 @@ const SignUpPage = () => {
   } = useForm();
   const navigate = useNavigate();
 
-  const onSubmit = async (data) => {
-    try {
-      const response = await axios.post("http://localhost:3000/signup", data);
-      if (response.status === 200) {
-        navigate("/");
-      }
-    } catch (error) {
-      console.error("Signup failed:", error);
+  const onSubmit = (data) => {
+    switch (data.role) {
+      case "Student":
+        navigate("/student");
+        break;
+      case "Learning Circle Leader":
+        navigate("/lcl");
+        break;
+      default:
+        navigate("/testforuser");
     }
   };
 

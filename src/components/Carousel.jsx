@@ -10,18 +10,11 @@ const Carousel = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 1000,
+    autoplaySpeed: 3000,
   };
 
   return (
     <div className="w-full h-[calc(60vh-80px)] flex items-center justify-center">
-      <div className="hidden md:block w-1/6">
-        <img
-          src="/path/to/left-side-image.jpg"
-          alt="Left side"
-          className="w-full h-full object-cover"
-        />
-      </div>
       <div className="w-full md:w-2/3">
         <Slider {...settings}>
           {[1, 2, 3, 11, 4, 5].map((num, index) => (
@@ -36,13 +29,6 @@ const Carousel = () => {
             </div>
           ))}
         </Slider>
-      </div>
-      <div className="hidden md:block w-1/6">
-        <img
-          src="/path/to/right-side-image.jpg"
-          alt="Right side"
-          className="w-full h-full object-cover"
-        />
       </div>
     </div>
   );
