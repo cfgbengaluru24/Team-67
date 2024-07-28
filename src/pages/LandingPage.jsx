@@ -5,8 +5,6 @@ import DiscoverSection from "../components/DiscoverSection";
 import Footer from "../components/Footer";
 import Carousel from "../components/Carousel";
 import UserCards from "../components/UserCards";
-import Form from "../components/Form";
-import VideoUpload from "../components/Videoupload";
 
 const LandingPage = () => {
   const props = [
@@ -26,7 +24,6 @@ const LandingPage = () => {
         "U&I Trust is powered by a strong volunteer base, with over 3,600 individuals engaged in various capacities, including tutoring and corporate volunteering initiatives. The organization emphasizes the importance of community involvement, believing that collective efforts can lead to significant social change. Volunteers not only contribute their time but also participate in training and development programs to enhance their impact.",
       imgSrc: "vol.png",
     },
-
     {
       isReversed: true,
       icon: <FaCompass color="#2f3645" className="scale-[1.6]" />,
@@ -72,9 +69,7 @@ const LandingPage = () => {
         <UserCards />
         <DiscoverSection />
         <hr className="border-2 border-gray-200" />
-        <Form />
         <Footer />
-        <VideoUpload />
       </div>
     </>
   );

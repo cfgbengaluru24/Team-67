@@ -21,7 +21,7 @@ const SignUpPage = () => {
     }
   };
 
-  const roles = ["Volunteer", "Student", "Learning Chapter Head"];
+  const roles = ["Volunteer", "Student"];
   const inputs = [
     { label: "Name", type: "text", placeholder: "Name", name: "name" },
     {

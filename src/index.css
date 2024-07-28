@@ -50,3 +50,7 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background-color: #a5a5a5; /* Color of the scroll thumb when hovered */
 }
+
+.max-w-7_5xl {
+  max-width: 85rem;
+}

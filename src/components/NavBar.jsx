@@ -21,12 +21,31 @@ const Navbar = () => {
           >
             Home
           </button>
-          <button className="cursor-pointer hover:text-blue-600">
-            About Us
+          <button
+            className="cursor-pointer hover:text-blue-600"
+            onClick={() => navigate("/dashboard")}
+          >
+            Volunteer Dashboard
           </button>
-          <button className="cursor-pointer hover:text-blue-600">
+          <button
+            className="cursor-pointer hover:text-blue-600"
+            onClick={() => navigate("/lcl")}
+          >
+            LCL Dashboard
+          </button>
+          <button
+            className="cursor-pointer hover:text-blue-600"
+            onClick={() => navigate("/student")}
+          >
+            Student Dashboard
+          </button>
+          <button
+            className="cursor-pointer hover:text-blue-600"
+            onClick={() => navigate("/contact")}
+          >
             Contact
           </button>
+
           <button
             className="cursor-pointer hover:text-blue-600"
             onClick={() => {
@@ -34,6 +53,15 @@ const Navbar = () => {
             }}
           >
             Notifications
+          </button>
+
+          <button
+            className="cursor-pointer hover:text-blue-600"
+            onClick={() => {
+              navigate("/form");
+            }}
+          >
+            Form
           </button>
         </div>
       </div>

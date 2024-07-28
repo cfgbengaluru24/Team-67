@@ -77,7 +77,7 @@ const UserCards = () => {
             <img src={companyImage} alt="Company" />
           </div>
           <h3>Student</h3>
-          <p>uuuuuu!</p>
+          <p>Come and Join Us! To brighten your future</p>
         </div>
       </div>
     </section>
