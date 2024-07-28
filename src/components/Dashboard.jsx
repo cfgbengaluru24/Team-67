@@ -9,6 +9,7 @@ import {
   FaEdit,
 } from "react-icons/fa"; // Import FaBars icon
 import Sidebar from "./Sidebar";
+import VideoUpload from "./Videoupload";
 
 const Dashboard = () => {
   const [isopen, setIsOpen] = useState(false);
@@ -154,6 +155,7 @@ const Dashboard = () => {
                 onChange={(e) => setReview(e.target.value)}
                 placeholder="Enter your review and report for the class..."
               ></textarea>
+              <VideoUpload />
               <button
                 onClick={submitReview}
                 className="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600"
