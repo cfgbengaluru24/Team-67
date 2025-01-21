@@ -661,7 +661,7 @@ backface-visibility: hidden;
 animation-direction: reverse;
 }
 
-</style></head><body class="t-body" style="margin: 0px;"><!--allrecords--><div id="allrecords" class="t-records t-records_animated t-records_visible" data-hook="blocks-collection-content-node" data-tilda-project-id="5148715" data-tilda-page-id="29536648" data-tilda-formskey="" data-tilda-lazy="yes" data-tilda-project-headcode="yes" data-tilda-ts="y" style="overflow: hidden;"><div id="rec477715411" class="r t-rec t-rec_pb_0" style="padding-bottom: 0px; opacity: 1;" data-animationappear="off" data-record-type="360"><!-- T360 --><style>@media screen and (min-width: 980px) {
+</style></head><body class="t-body" style="margin: 0px;"><!--allrecords--><div id="allrecords" class="t-records t-records_animated t-records_visible" data-hook="blocks-collection-content-node" data-tilda-project-id="5148715" data-tilda-page-id="29536648" data-tilda-formskey="86d364e4635253a5c24f92cc25148715" data-tilda-lazy="yes" data-tilda-project-headcode="yes" data-tilda-ts="y" style="overflow: hidden;"><div id="rec477715411" class="r t-rec t-rec_pb_0" style="padding-bottom: 0px; opacity: 1;" data-animationappear="off" data-record-type="360"><!-- T360 --><style>@media screen and (min-width: 980px) {
 .t-records {
 opacity: 0;
 }
